@@ -15,6 +15,7 @@ public static class JsonApi
 
     public static void Configure(JsonSerializerOptions options)
     {
+        options.PropertyNameCaseInsensitive = true;
         options.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
         options.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
 
