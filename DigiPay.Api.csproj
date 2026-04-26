@@ -15,7 +15,7 @@
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageTags>Payments;Api</PackageTags>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Company>Flam3y</Company>
   </PropertyGroup>
 
