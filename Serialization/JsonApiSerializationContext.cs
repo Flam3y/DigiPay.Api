@@ -1,4 +1,5 @@
 ﻿using DigiPay.Api.Requests.Abstractions;
+using DigiPay.Api.Types;
 using System.Text.Json.Serialization;
 
 namespace DigiPay.Serialization;
@@ -7,5 +8,5 @@ namespace DigiPay.Serialization;
     PropertyNamingPolicy = JsonKnownNamingPolicy.CamelCase,
     DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
     UseStringEnumConverter = false)]
-[JsonSerializable(typeof(IRequest))]
+[JsonSerializable(typeof(WebhookRequest))]
 public partial class JsonApiSerializationContext : JsonSerializerContext;
